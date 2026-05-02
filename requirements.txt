@@ -1,0 +1,10 @@
+Python Libraries :
+
+streamlit
+pytesseract
+pdf2image
+numpy
+opencv-python
+pandas
+openpyxl
+Pillow
