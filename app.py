@@ -11,10 +11,6 @@ import pandas as pd
 # Tesseract Configuration
 # ==============================
 
-# Windows local support
-if os.name == "nt":
-    pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
-
 # Tessdata folder for deployment
 tessdata_dir = os.path.join(os.getcwd(), "tessdata")
 os.environ["TESSDATA_PREFIX"] = tessdata_dir
